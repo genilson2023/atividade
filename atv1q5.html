@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="atv1q5.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Este é o 5º exercício da lista HTML5, que demonstra como criar um documento HTML5 básico.">
+    <meta name="author" content="José Genilson da Silva">
+    <meta name="keywords" content="HTML5, git e set, programação, interação ">
+    <title>Meu 5 &ordm; exercício da lista HTML5</title>
+   
+</head>
+
+<body>
+    <body background="https://www.blogson.com.br/wp-content/uploads/2016/08/Aulas-de-PHP-Etec-Centro-Paula-Souza.jpg"width="50%"></body>
+    
+    <header>
+     <h1>Os métodos "GET e SET" Em Programação.</h1>
+
+     <img src="https://i.ytimg.com/vi/sSijBcBGKME/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDl9OYmuXqJ8aHUGKMcP4biayfmFw"alt="Método Get Set", width="60%">
+    </header>
+
+     <blockquote>
+
+        <P>Em programação, os termos “get” e “set” se referem a dois tipos de métodos que geralmente são usados para acessar e modificar as propriedades (ou atributos) de um objeto.
+        <P></P>O método “get” (em português, “obter” ou “pegar”) é usado para retornar o valor atual de uma propriedade do objeto. Por exemplo, se uma classe “Pessoa” tiver uma propriedade “nome”, um método “getNome” poderia ser usado para retornar o valor atual do nome dessa pessoa.</P>
+        <br> 
+        <P>O método “set” (em português, “definir” ou “configurar”) é usado para modificar o valor de uma propriedade do objeto. Por exemplo, se quisermos mudar o nome de uma pessoa na classe “Pessoa”, poderíamos usar um método “setNome” para definir um novo valor para a propriedade “nome”.</P>
+        <br> 
+        <P>Em resumo, “get” é usado para obter ou pegar o valor atual de uma propriedade, enquanto “set” é usado para definir ou configurar um novo valor para essa propriedade. Esses métodos são usados ​​para garantir que as propriedades de um objeto sejam acessadas e modificadas de maneira controlada e consistente. </P>
+        <br> 
+        
+    </blockquote>
+
+     <h2>Exemplos dos métodos GET e SET em PHP</h2>
+     <img src="https://miro.medium.com/v2/resize:fit:1400/1*gkHSfMiU8etJK21l4RBkAA.png"alt="Método Get Set em PHP.", width="70%"><br>
+     
+     <blockquote>
+       <H3> Usando get e set para acessar/modificar propriedades de uma classe:</H3>
+        <br><br>
+        class Pessoa {<br>
+            private $nome;<br>
+            private $idade;<br>
+        
+            public function getNome() {<br>
+                return $this->nome;<br>
+            }
+        
+            public function setNome($nome) {<br>
+                $this->nome = $nome;<br>
+            }
+        
+            public function getIdade() {<br>
+                return $this->idade;<br>
+            }
+        
+            public function setIdade($idade) {<br>
+                $this->idade = $idade;
+            }
+        }
+        
+        // Exemplo de uso:<br>
+        $pessoa = new Pessoa();<br>
+        $pessoa->setNome("João");<br>
+        $pessoa->setIdade(30);
+        
+        echo "Nome: " . $pessoa->getNome() . ", Idade: " . $pessoa->getIdade(); // saída: "Nome: João, Idade: 30"
+        <br><br><br><br>
+       <P> Nesse exemplo, a classe “Pessoa” tem duas propriedades privadas, “nome” e “idade”, e quatro métodos públicos “get” e “set” para acessá-las e modificá-las. O método “setNome” recebe um nome como parâmetro e define o valor da propriedade “nome” para esse nome, enquanto o método “getNome” retorna o valor atual da propriedade “nome”. O mesmo se aplica aos métodos “setIdade” e “getIdade” para a propriedade “idade”.</P><br><br>
+        </blockquote>
+        
+        <h2> Usando get para acessar uma propriedade protegida em uma classe filha: 2</h2>
+        <img src="https://www.alura.com.br/apostila-java-orientacao-objetos/assets/images/orientacaoobjetos/uml-heranca.png"alt="Método Get Set em PHP.", width="50%"><br>
+        
+    <blockquote>
+        class Animal {<br>
+            protected $nome;<br>
+        
+            public function __construct($nome) {<br>
+                $this->nome = $nome;<br>
+            }
+        }
+        
+        class Cachorro extends Animal {<br>
+            public function latir() {<br>
+                echo "Au Au!";<br>
+            }
+        
+            public function getNome() {<br>
+                return $this->nome;<br>
+            }
+        }
+        
+        // Exemplo de uso:<br>
+        $cachorro = new Cachorro("Totó");<br>
+        echo "Nome do cachorro: " . $cachorro->getNome(); // saída: "Nome do cachorro: Totó"<br><br>
+
+        Nesse exemplo, a classe “Animal” tem uma propriedade protegida “nome” que só pode ser acessada pelas classes filhas. A classe “Cachorro” herda a propriedade “nome” da classe “Animal” e implementa um método “getNome” que retorna o valor da propriedade “nome”. O método “latir” é apenas um exemplo de outro método que pode ser adicionado à classe “Cachorro”.<br><br>
+        O método “get” é usado para obter ou pegar o valor atual de uma propriedade, enquanto o método “set” é usado para definir ou configurar um novo valor para essa propriedade. Quando uma propriedade é privada ou protegida, esses métodos são usados para permitir que outras partes do código acessem ou modifiquem essa propriedade de maneira controlada.<br><br>
+
+        <h2><a>Conclusão</h2></a>
+        Portanto, o uso de métodos “get” e “set” é uma prática comum em programação orientada a objetos para garantir que as propriedades de um objeto sejam acessadas e modificadas de maneira controlada e consistente. Esses métodos permitem que a classe tenha um controle sobre a leitura e a escrita dos valores das suas propriedades.
+
+
+      <main>  Endereço: <a href="URL_do_site">https://programadoresdepre.com.br</a></main>
+    </blockquote>
+
+
+<footer><h2> Contato:(88)9.9461-1084
+    e-mail:j.genilson.gg@hotmail.com</h2> 
+    </footer>
+    </body> 
+</html>
+
+
+
+
+

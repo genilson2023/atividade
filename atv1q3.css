@@ -1,0 +1,51 @@
+head{
+    
+    font-family:'Times New Roman', Times, serif;
+}
+
+body{
+   
+    margin: 5%;
+    font-size:large;
+      }
+header{
+    
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 3%;
+    }
+    h1{
+        font-family:Arial, Helvetica, sans-serif;
+        font: size 40px;;
+        color:rgb(14, 6, 122);
+        text-align: center;
+    }
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        color: rgb(0, 6, 24);
+        text-align:justify;
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color: rgb(0, 0, 0);
+        text-align: left;
+        
+    }
+    cite{
+        font-family: 'Times New Roman', Times, serif;
+        font-size:larger;
+        font-style: italic;
+        color: rgb(76, 15, 100);
+        text-align:center;
+    }
+    footer{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: larger;
+        color: blue;
+        text-align: center;
+    }
+

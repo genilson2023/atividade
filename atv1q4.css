@@ -1,0 +1,54 @@
+head{
+    
+    font-size: large;
+    }
+    body{
+       font-family:'Times New Roman', Times, serif;
+       font-size: 20px;
+       margin-top: 1%;
+       color: rgb(227, 232, 241);
+       
+
+    }
+    header{
+        font-family:'Courier New', Courier, monospace;
+        font-size: 30px;
+        margin-top: 4%;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-right: 4%;
+        }
+        header img{
+            margin: 0 auto;
+            display:block;
+            font-size: 20%;
+        
+        }
+    
+            
+    main{
+        font-family:'Courier New', Courier, monospace;
+        font-size: 30px;
+        text-align:justify;
+        margin-top: 4%;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-right: 4%;
+        }
+        main img {
+            margin: 0 auto;
+            display:block;
+        }
+    cite a {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(45, 219, 205);
+        
+        
+    }
+    footer{
+        font-size: 30px;
+       padding: 5px;
+       text-align: center;
+       color: rgba(45, 219, 212, 200);
+    } 
+    

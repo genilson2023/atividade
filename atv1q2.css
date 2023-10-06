@@ -1,0 +1,28 @@
+header{
+    background-color: rgba(46, 102, 148, 0.274);
+    text-align:center;
+    margin: top 4%;
+    margin-left: 2px;
+    margin-bottom: 4%;
+    padding:2px;
+    border:0lvi;
+}
+meta{
+    color: rgb(69, 75, 156);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+h1{
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: rgb(10, 69, 124);
+}
+p{ font-size:x-large;
+    font-family: 'Times New Roman', Times, serif;
+
+    color: rgb(27, 93, 180);
+}
+nav{
+    display: inline;
+    border-image-outset: 0cqmax;
+    font-size: 3px;
+}
